@@ -184,7 +184,7 @@ async def route_product(user_answers: schemas.UserAnswers):
 # --- Day 2 Feature Requirements Modules ---
 
 @app.post("/api/regret-predict", response_model=schemas.RegretResponse)
-async def predict_return_regret(payload: schemas.RegretRequest):
+async def api_predict_return_regret(payload: schemas.RegretRequest):
     """P2 Unique Wow Factor: Behavioral Return Regret Logic."""
     reason = payload.return_reason.lower()
     if "buyer" in reason or "regret" in reason or "impulsive" in reason or "heavy" in reason:

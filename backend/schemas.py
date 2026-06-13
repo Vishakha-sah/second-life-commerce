@@ -76,3 +76,13 @@ class ReviewItem(BaseModel):
 
 class AdminQueueResponse(BaseModel):
     flagged_items: List[ReviewItem] 
+# --- Day 2: Loyalty Point Redemption Contracts ---
+class RedeemRequest(BaseModel):
+    user_id: str
+    points_to_redeem: int
+
+class RedeemResponse(BaseModel):
+    success: bool
+    coupon_code: str
+    discount_amount_inr: float
+    remaining_points: int    
