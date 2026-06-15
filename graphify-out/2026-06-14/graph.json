@@ -1,0 +1,5189 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "ai_agent.py",
+      "file_type": "code",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_ai_agent",
+      "community": 9,
+      "norm_label": "ai_agent.py"
+    },
+    {
+      "label": "ask_gemini_with_image()",
+      "file_type": "code",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "backend_ai_agent_ask_gemini_with_image",
+      "community": 9,
+      "norm_label": "ask_gemini_with_image()"
+    },
+    {
+      "label": "safe_parse_json()",
+      "file_type": "code",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "backend_ai_agent_safe_parse_json",
+      "community": 9,
+      "norm_label": "safe_parse_json()"
+    },
+    {
+      "label": "check_image_quality()",
+      "file_type": "code",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "backend_ai_agent_check_image_quality",
+      "community": 9,
+      "norm_label": "check_image_quality()"
+    },
+    {
+      "label": "grade_product_image()",
+      "file_type": "code",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "backend_ai_agent_grade_product_image",
+      "community": 9,
+      "norm_label": "grade_product_image()"
+    },
+    {
+      "label": "full_image_analysis()",
+      "file_type": "code",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "backend_ai_agent_full_image_analysis",
+      "community": 9,
+      "norm_label": "full_image_analysis()"
+    },
+    {
+      "label": "database.py",
+      "file_type": "code",
+      "source_file": "backend/database.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_database",
+      "community": 7,
+      "norm_label": "database.py"
+    },
+    {
+      "label": "initialize_db()",
+      "file_type": "code",
+      "source_file": "backend/database.py",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "backend_database_initialize_db",
+      "community": 7,
+      "norm_label": "initialize_db()"
+    },
+    {
+      "label": "read_json()",
+      "file_type": "code",
+      "source_file": "backend/database.py",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "backend_database_read_json",
+      "community": 7,
+      "norm_label": "read_json()"
+    },
+    {
+      "label": "write_json()",
+      "file_type": "code",
+      "source_file": "backend/database.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "backend_database_write_json",
+      "community": 7,
+      "norm_label": "write_json()"
+    },
+    {
+      "label": "Bootstraps the JSON files if they don't exist yet.",
+      "file_type": "rationale",
+      "source_file": "backend/database.py",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "backend_database_rationale_11",
+      "community": 7,
+      "norm_label": "bootstraps the json files if they don't exist yet."
+    },
+    {
+      "label": "Safely reads data from a specified JSON file.",
+      "file_type": "rationale",
+      "source_file": "backend/database.py",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "backend_database_rationale_29",
+      "community": 7,
+      "norm_label": "safely reads data from a specified json file."
+    },
+    {
+      "label": "Safely writes structured data back to the JSON file.",
+      "file_type": "rationale",
+      "source_file": "backend/database.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "backend_database_rationale_37",
+      "community": 7,
+      "norm_label": "safely writes structured data back to the json file."
+    },
+    {
+      "label": "listings.json",
+      "file_type": "code",
+      "source_file": "backend/listings.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_listings",
+      "community": 14,
+      "norm_label": "listings.json"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_main",
+      "community": 0,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "ask_gemini()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "backend_main_ask_gemini",
+      "community": 0,
+      "norm_label": "ask_gemini()"
+    },
+    {
+      "label": "upload_photo()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "backend_main_upload_photo",
+      "community": 0,
+      "norm_label": "upload_photo()"
+    },
+    {
+      "label": "UploadFile",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "uploadfile",
+      "community": 0,
+      "norm_label": "uploadfile"
+    },
+    {
+      "label": "grade_product()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "backend_main_grade_product",
+      "community": 0,
+      "norm_label": "grade_product()"
+    },
+    {
+      "label": "get_questions()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "backend_main_get_questions",
+      "community": 0,
+      "norm_label": "get_questions()"
+    },
+    {
+      "label": "GradeResponse",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "graderesponse",
+      "community": 0,
+      "norm_label": "graderesponse"
+    },
+    {
+      "label": "route_product()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L134",
+      "_origin": "ast",
+      "id": "backend_main_route_product",
+      "community": 0,
+      "norm_label": "route_product()"
+    },
+    {
+      "label": "UserAnswers",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L134",
+      "_origin": "ast",
+      "id": "useranswers",
+      "community": 0,
+      "norm_label": "useranswers"
+    },
+    {
+      "label": "api_predict_return_regret()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L207",
+      "_origin": "ast",
+      "id": "backend_main_api_predict_return_regret",
+      "community": 0,
+      "norm_label": "api_predict_return_regret()"
+    },
+    {
+      "label": "RegretRequest",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L207",
+      "_origin": "ast",
+      "id": "regretrequest",
+      "community": 0,
+      "norm_label": "regretrequest"
+    },
+    {
+      "label": "calculate_co2_impact()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L233",
+      "_origin": "ast",
+      "id": "backend_main_calculate_co2_impact",
+      "community": 0,
+      "norm_label": "calculate_co2_impact()"
+    },
+    {
+      "label": "get_marketplace_listings()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L252",
+      "_origin": "ast",
+      "id": "backend_main_get_marketplace_listings",
+      "community": 0,
+      "norm_label": "get_marketplace_listings()"
+    },
+    {
+      "label": "get_admin_review_queue()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L260",
+      "_origin": "ast",
+      "id": "backend_main_get_admin_review_queue",
+      "community": 0,
+      "norm_label": "get_admin_review_queue()"
+    },
+    {
+      "label": "redeem_green_points()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L271",
+      "_origin": "ast",
+      "id": "backend_main_redeem_green_points",
+      "community": 0,
+      "norm_label": "redeem_green_points()"
+    },
+    {
+      "label": "RedeemRequest",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L271",
+      "_origin": "ast",
+      "id": "redeemrequest",
+      "community": 0,
+      "norm_label": "redeemrequest"
+    },
+    {
+      "label": "P1 Feature: AI Image Quality Check & Condition Grader.     Executes real-time i",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "backend_main_rationale_51",
+      "community": 0,
+      "norm_label": "p1 feature: ai image quality check & condition grader.     executes real-time i"
+    },
+    {
+      "label": "P1 Dynamic Questionnaire: Invokes real-time contextual targeted query arrays fro",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "backend_main_rationale_106",
+      "community": 0,
+      "norm_label": "p1 dynamic questionnaire: invokes real-time contextual targeted query arrays fro"
+    },
+    {
+      "label": "P1 Routing Engine & P3 Human Accountability Queue:     Flags items automaticall",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "backend_main_rationale_135",
+      "community": 0,
+      "norm_label": "p1 routing engine & p3 human accountability queue:     flags items automaticall"
+    },
+    {
+      "label": "P2 Unique Wow Factor: Behavioral Return Regret Logic.",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L208",
+      "_origin": "ast",
+      "id": "backend_main_rationale_208",
+      "community": 0,
+      "norm_label": "p2 unique wow factor: behavioral return regret logic."
+    },
+    {
+      "label": "P2 Unique Feature: CO2 Emission Footprint Metric Generator.",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L234",
+      "_origin": "ast",
+      "id": "backend_main_rationale_234",
+      "community": 0,
+      "norm_label": "p2 unique feature: co2 emission footprint metric generator."
+    },
+    {
+      "label": "products.json",
+      "file_type": "code",
+      "source_file": "backend/products.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_products",
+      "community": 15,
+      "norm_label": "products.json"
+    },
+    {
+      "label": "schemas.py",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_schemas",
+      "community": 1,
+      "norm_label": "schemas.py"
+    },
+    {
+      "label": "ImageQuality",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "backend_schemas_imagequality",
+      "community": 1,
+      "norm_label": "imagequality"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "basemodel",
+      "community": 1,
+      "norm_label": "basemodel"
+    },
+    {
+      "label": "DamageLocation",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "backend_schemas_damagelocation",
+      "community": 1,
+      "norm_label": "damagelocation"
+    },
+    {
+      "label": "GradeResponse",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "backend_schemas_graderesponse",
+      "community": 1,
+      "norm_label": "graderesponse"
+    },
+    {
+      "label": "QuestionnaireOption",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "backend_schemas_questionnaireoption",
+      "community": 1,
+      "norm_label": "questionnaireoption"
+    },
+    {
+      "label": "Question",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "backend_schemas_question",
+      "community": 1,
+      "norm_label": "question"
+    },
+    {
+      "label": "QuestionnaireResponse",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "backend_schemas_questionnaireresponse",
+      "community": 1,
+      "norm_label": "questionnaireresponse"
+    },
+    {
+      "label": "UserAnswers",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "backend_schemas_useranswers",
+      "community": 1,
+      "norm_label": "useranswers"
+    },
+    {
+      "label": "RoutingDecisionResponse",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "backend_schemas_routingdecisionresponse",
+      "community": 1,
+      "norm_label": "routingdecisionresponse"
+    },
+    {
+      "label": "RegretRequest",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "backend_schemas_regretrequest",
+      "community": 1,
+      "norm_label": "regretrequest"
+    },
+    {
+      "label": "RegretResponse",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "backend_schemas_regretresponse",
+      "community": 1,
+      "norm_label": "regretresponse"
+    },
+    {
+      "label": "CO2ImpactResponse",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "backend_schemas_co2impactresponse",
+      "community": 1,
+      "norm_label": "co2impactresponse"
+    },
+    {
+      "label": "MarketplaceListing",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "backend_schemas_marketplacelisting",
+      "community": 1,
+      "norm_label": "marketplacelisting"
+    },
+    {
+      "label": "ListingsResponse",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "backend_schemas_listingsresponse",
+      "community": 1,
+      "norm_label": "listingsresponse"
+    },
+    {
+      "label": "ReviewItem",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "backend_schemas_reviewitem",
+      "community": 1,
+      "norm_label": "reviewitem"
+    },
+    {
+      "label": "AdminQueueResponse",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "backend_schemas_adminqueueresponse",
+      "community": 1,
+      "norm_label": "adminqueueresponse"
+    },
+    {
+      "label": "RedeemRequest",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "backend_schemas_redeemrequest",
+      "community": 1,
+      "norm_label": "redeemrequest"
+    },
+    {
+      "label": "RedeemResponse",
+      "file_type": "code",
+      "source_file": "backend/schemas.py",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "backend_schemas_redeemresponse",
+      "community": 1,
+      "norm_label": "redeemresponse"
+    },
+    {
+      "label": "sellers.json",
+      "file_type": "code",
+      "source_file": "backend/sellers.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_sellers",
+      "community": 8,
+      "norm_label": "sellers.json"
+    },
+    {
+      "label": "user_rahul",
+      "file_type": "code",
+      "source_file": "backend/sellers.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "backend_sellers_user_rahul",
+      "community": 8,
+      "norm_label": "user_rahul"
+    },
+    {
+      "label": "green_points",
+      "file_type": "code",
+      "source_file": "backend/sellers.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "backend_sellers_user_rahul_green_points",
+      "community": 8,
+      "norm_label": "green_points"
+    },
+    {
+      "label": "listings_count",
+      "file_type": "code",
+      "source_file": "backend/sellers.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "backend_sellers_user_rahul_listings_count",
+      "community": 8,
+      "norm_label": "listings_count"
+    },
+    {
+      "label": "user_sakshi",
+      "file_type": "code",
+      "source_file": "backend/sellers.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "backend_sellers_user_sakshi",
+      "community": 8,
+      "norm_label": "user_sakshi"
+    },
+    {
+      "label": "green_points",
+      "file_type": "code",
+      "source_file": "backend/sellers.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "backend_sellers_user_sakshi_green_points",
+      "community": 8,
+      "norm_label": "green_points"
+    },
+    {
+      "label": "listings_count",
+      "file_type": "code",
+      "source_file": "backend/sellers.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "backend_sellers_user_sakshi_listings_count",
+      "community": 8,
+      "norm_label": "listings_count"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_eslint_config",
+      "community": 16,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_package",
+      "community": 5,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "frontend_package_name",
+      "community": 5,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_package_private",
+      "community": 5,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "frontend_package_version",
+      "community": 5,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "frontend_package_type",
+      "community": 5,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "frontend_package_scripts",
+      "community": 5,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_package_scripts_dev",
+      "community": 5,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "frontend_package_scripts_build",
+      "community": 5,
+      "norm_label": "build"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "frontend_package_scripts_lint",
+      "community": 5,
+      "norm_label": "lint"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "frontend_package_scripts_preview",
+      "community": 5,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies",
+      "community": 5,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_tailwindcss_vite",
+      "community": 5,
+      "norm_label": "@tailwindcss/vite"
+    },
+    {
+      "label": "axios",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_axios",
+      "community": 5,
+      "norm_label": "axios"
+    },
+    {
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_lucide_react",
+      "community": 5,
+      "norm_label": "lucide-react"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_react",
+      "community": 5,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_react_dom",
+      "community": 5,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies",
+      "community": 6,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_eslint_js",
+      "community": 6,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_types_node",
+      "community": 6,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_types_react",
+      "community": 6,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_types_react_dom",
+      "community": 6,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_vitejs_plugin_react",
+      "community": 6,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "autoprefixer",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_autoprefixer",
+      "community": 6,
+      "norm_label": "autoprefixer"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_eslint",
+      "community": 6,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_eslint_plugin_react_hooks",
+      "community": 6,
+      "norm_label": "eslint-plugin-react-hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "community": 6,
+      "norm_label": "eslint-plugin-react-refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_globals",
+      "community": 6,
+      "norm_label": "globals"
+    },
+    {
+      "label": "postcss",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_postcss",
+      "community": 6,
+      "norm_label": "postcss"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_tailwindcss",
+      "community": 6,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_typescript",
+      "community": 6,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "typescript-eslint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_typescript_eslint",
+      "community": 6,
+      "norm_label": "typescript-eslint"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_vite",
+      "community": 6,
+      "norm_label": "vite"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 12,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_app_view",
+      "community": 12,
+      "norm_label": "view"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 12,
+      "norm_label": "app()"
+    },
+    {
+      "label": "GradeResult.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "grading_graderesult",
+      "community": 18,
+      "norm_label": "graderesult.tsx"
+    },
+    {
+      "label": "GradeResultProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "grading_graderesult_graderesultprops",
+      "community": 18,
+      "norm_label": "graderesultprops"
+    },
+    {
+      "label": "GradeResult()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "grading_graderesult_graderesult",
+      "community": 18,
+      "norm_label": "graderesult()"
+    },
+    {
+      "label": "ImageAnnotator.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/ImageAnnotator.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "grading_imageannotator",
+      "community": 18,
+      "norm_label": "imageannotator.tsx"
+    },
+    {
+      "label": "ImageAnnotatorProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/ImageAnnotator.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "grading_imageannotator_imageannotatorprops",
+      "community": 18,
+      "norm_label": "imageannotatorprops"
+    },
+    {
+      "label": "ImageAnnotator()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/ImageAnnotator.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "grading_imageannotator_imageannotator",
+      "community": 18,
+      "norm_label": "imageannotator()"
+    },
+    {
+      "label": "Questionnaire.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "grading_questionnaire",
+      "community": 18,
+      "norm_label": "questionnaire.tsx"
+    },
+    {
+      "label": "QuestionnaireProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "grading_questionnaire_questionnaireprops",
+      "community": 18,
+      "norm_label": "questionnaireprops"
+    },
+    {
+      "label": "Questionnaire()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "grading_questionnaire_questionnaire",
+      "community": 18,
+      "norm_label": "questionnaire()"
+    },
+    {
+      "label": "Header.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/layout/Header.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "layout_header",
+      "community": 12,
+      "norm_label": "header.tsx"
+    },
+    {
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/layout/Header.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "layout_header_header",
+      "community": 12,
+      "norm_label": "header()"
+    },
+    {
+      "label": "CO2Impact.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outcome_co2impact",
+      "community": 18,
+      "norm_label": "co2impact.tsx"
+    },
+    {
+      "label": "CO2ImpactProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "outcome_co2impact_co2impactprops",
+      "community": 18,
+      "norm_label": "co2impactprops"
+    },
+    {
+      "label": "CO2Impact()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "outcome_co2impact_co2impact",
+      "community": 18,
+      "norm_label": "co2impact()"
+    },
+    {
+      "label": "DecisionCard.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outcome_decisioncard",
+      "community": 18,
+      "norm_label": "decisioncard.tsx"
+    },
+    {
+      "label": "DecisionCardProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "outcome_decisioncard_decisioncardprops",
+      "community": 18,
+      "norm_label": "decisioncardprops"
+    },
+    {
+      "label": "DecisionCard()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "outcome_decisioncard_decisioncard",
+      "community": 18,
+      "norm_label": "decisioncard()"
+    },
+    {
+      "label": "Button.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ui/Button.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "ui_button",
+      "community": 18,
+      "norm_label": "button.tsx"
+    },
+    {
+      "label": "ButtonProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ui/Button.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "ui_button_buttonprops",
+      "community": 18,
+      "norm_label": "buttonprops"
+    },
+    {
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ui/Button.tsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "ui_button_button",
+      "community": 18,
+      "norm_label": "button()"
+    },
+    {
+      "label": "Card.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ui/Card.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "ui_card",
+      "community": 18,
+      "norm_label": "card.tsx"
+    },
+    {
+      "label": "CardProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ui/Card.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "ui_card_cardprops",
+      "community": 18,
+      "norm_label": "cardprops"
+    },
+    {
+      "label": "Card()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ui/Card.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "ui_card_card",
+      "community": 18,
+      "norm_label": "card()"
+    },
+    {
+      "label": "Dropzone.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/upload/Dropzone.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "upload_dropzone",
+      "community": 18,
+      "norm_label": "dropzone.tsx"
+    },
+    {
+      "label": "DropzoneProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/upload/Dropzone.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "upload_dropzone_dropzoneprops",
+      "community": 18,
+      "norm_label": "dropzoneprops"
+    },
+    {
+      "label": "Dropzone()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/upload/Dropzone.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "upload_dropzone_dropzone",
+      "community": 18,
+      "norm_label": "dropzone()"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/main.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 12,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "api.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_api",
+      "community": 18,
+      "norm_label": "api.ts"
+    },
+    {
+      "label": "api",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "services_api_api",
+      "community": 18,
+      "norm_label": "api"
+    },
+    {
+      "label": "ImageQuality",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "services_api_imagequality",
+      "community": 18,
+      "norm_label": "imagequality"
+    },
+    {
+      "label": "DamageLocation",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "services_api_damagelocation",
+      "community": 18,
+      "norm_label": "damagelocation"
+    },
+    {
+      "label": "GradeResponse",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "services_api_graderesponse",
+      "community": 18,
+      "norm_label": "graderesponse"
+    },
+    {
+      "label": "QuestionnaireOption",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "services_api_questionnaireoption",
+      "community": 18,
+      "norm_label": "questionnaireoption"
+    },
+    {
+      "label": "Question",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "services_api_question",
+      "community": 18,
+      "norm_label": "question"
+    },
+    {
+      "label": "QuestionnaireResponse",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "services_api_questionnaireresponse",
+      "community": 18,
+      "norm_label": "questionnaireresponse"
+    },
+    {
+      "label": "RoutingDecisionResponse",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "services_api_routingdecisionresponse",
+      "community": 18,
+      "norm_label": "routingdecisionresponse"
+    },
+    {
+      "label": "RegretResponse",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "services_api_regretresponse",
+      "community": 18,
+      "norm_label": "regretresponse"
+    },
+    {
+      "label": "CO2ImpactResponse",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "services_api_co2impactresponse",
+      "community": 18,
+      "norm_label": "co2impactresponse"
+    },
+    {
+      "label": "gradeProduct()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "services_api_gradeproduct",
+      "community": 18,
+      "norm_label": "gradeproduct()"
+    },
+    {
+      "label": "getQuestionnaire()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "services_api_getquestionnaire",
+      "community": 18,
+      "norm_label": "getquestionnaire()"
+    },
+    {
+      "label": "routeProduct()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "services_api_routeproduct",
+      "community": 18,
+      "norm_label": "routeproduct()"
+    },
+    {
+      "label": "predictRegret()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "services_api_predictregret",
+      "community": 18,
+      "norm_label": "predictregret()"
+    },
+    {
+      "label": "getCO2Impact()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "services_api_getco2impact",
+      "community": 18,
+      "norm_label": "getco2impact()"
+    },
+    {
+      "label": "AssessmentView.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "views_assessmentview",
+      "community": 18,
+      "norm_label": "assessmentview.tsx"
+    },
+    {
+      "label": "AssessmentView()",
+      "file_type": "code",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "views_assessmentview_assessmentview",
+      "community": 18,
+      "norm_label": "assessmentview()"
+    },
+    {
+      "label": "RegretPredictorView.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/views/RegretPredictorView.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "views_regretpredictorview",
+      "community": 18,
+      "norm_label": "regretpredictorview.tsx"
+    },
+    {
+      "label": "RegretPredictorView()",
+      "file_type": "code",
+      "source_file": "frontend/src/views/RegretPredictorView.tsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "views_regretpredictorview_regretpredictorview",
+      "community": 18,
+      "norm_label": "regretpredictorview()"
+    },
+    {
+      "label": "tsconfig.app.json",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app",
+      "community": 2,
+      "norm_label": "tsconfig.app.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions",
+      "community": 2,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "tsBuildInfoFile",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_tsbuildinfofile",
+      "community": 2,
+      "norm_label": "tsbuildinfofile"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_target",
+      "community": 2,
+      "norm_label": "target"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_lib",
+      "community": 2,
+      "norm_label": "lib"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_module",
+      "community": 2,
+      "norm_label": "module"
+    },
+    {
+      "label": "types",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_types",
+      "community": 2,
+      "norm_label": "types"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_skiplibcheck",
+      "community": 2,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_moduleresolution",
+      "community": 2,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_allowimportingtsextensions",
+      "community": 2,
+      "norm_label": "allowimportingtsextensions"
+    },
+    {
+      "label": "verbatimModuleSyntax",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_verbatimmodulesyntax",
+      "community": 2,
+      "norm_label": "verbatimmodulesyntax"
+    },
+    {
+      "label": "moduleDetection",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_moduledetection",
+      "community": 2,
+      "norm_label": "moduledetection"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_noemit",
+      "community": 2,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_jsx",
+      "community": 2,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "noUnusedLocals",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_nounusedlocals",
+      "community": 2,
+      "norm_label": "nounusedlocals"
+    },
+    {
+      "label": "noUnusedParameters",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_nounusedparameters",
+      "community": 2,
+      "norm_label": "nounusedparameters"
+    },
+    {
+      "label": "erasableSyntaxOnly",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_erasablesyntaxonly",
+      "community": 2,
+      "norm_label": "erasablesyntaxonly"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_compileroptions_nofallthroughcasesinswitch",
+      "community": 2,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_app_include",
+      "community": 2,
+      "norm_label": "include"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_tsconfig",
+      "community": 11,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "files",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_files",
+      "community": 11,
+      "norm_label": "files"
+    },
+    {
+      "label": "references",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_references",
+      "community": 11,
+      "norm_label": "references"
+    },
+    {
+      "label": "tsconfig.node.json",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node",
+      "community": 3,
+      "norm_label": "tsconfig.node.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions",
+      "community": 3,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "tsBuildInfoFile",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_tsbuildinfofile",
+      "community": 3,
+      "norm_label": "tsbuildinfofile"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_target",
+      "community": 3,
+      "norm_label": "target"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_lib",
+      "community": 3,
+      "norm_label": "lib"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_module",
+      "community": 3,
+      "norm_label": "module"
+    },
+    {
+      "label": "types",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_types",
+      "community": 3,
+      "norm_label": "types"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_skiplibcheck",
+      "community": 3,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_moduleresolution",
+      "community": 3,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_allowimportingtsextensions",
+      "community": 3,
+      "norm_label": "allowimportingtsextensions"
+    },
+    {
+      "label": "verbatimModuleSyntax",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_verbatimmodulesyntax",
+      "community": 3,
+      "norm_label": "verbatimmodulesyntax"
+    },
+    {
+      "label": "moduleDetection",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_moduledetection",
+      "community": 3,
+      "norm_label": "moduledetection"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_noemit",
+      "community": 3,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "noUnusedLocals",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_nounusedlocals",
+      "community": 3,
+      "norm_label": "nounusedlocals"
+    },
+    {
+      "label": "noUnusedParameters",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_nounusedparameters",
+      "community": 3,
+      "norm_label": "nounusedparameters"
+    },
+    {
+      "label": "erasableSyntaxOnly",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_erasablesyntaxonly",
+      "community": 3,
+      "norm_label": "erasablesyntaxonly"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_nofallthroughcasesinswitch",
+      "community": 3,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_include",
+      "community": 3,
+      "norm_label": "include"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "frontend/vite.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_vite_config",
+      "community": 17,
+      "norm_label": "vite.config.ts"
+    },
+    {
+      "label": "GEMINI.md",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "gemini",
+      "community": 20,
+      "norm_label": "gemini.md"
+    },
+    {
+      "label": "\ud83d\udecd\ufe0f Second Life Commerce \u2014 AI Circular Economy Engine",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "gemini_second_life_commerce_ai_circular_economy_engine",
+      "community": 20,
+      "norm_label": "\ud83d\udecd\ufe0f second life commerce \u2014 ai circular economy engine"
+    },
+    {
+      "label": "\ud83d\ude80 Project Overview",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "gemini_project_overview",
+      "community": 20,
+      "norm_label": "\ud83d\ude80 project overview"
+    },
+    {
+      "label": "\ud83d\udee0\ufe0f Technology Stack",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "gemini_technology_stack",
+      "community": 20,
+      "norm_label": "\ud83d\udee0\ufe0f technology stack"
+    },
+    {
+      "label": "\ud83d\udcc2 Project Structure",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "gemini_project_structure",
+      "community": 20,
+      "norm_label": "\ud83d\udcc2 project structure"
+    },
+    {
+      "label": "\u2699\ufe0f Feature Priority (Hackathon Roadmap)",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "gemini_feature_priority_hackathon_roadmap",
+      "community": 20,
+      "norm_label": "\u2699\ufe0f feature priority (hackathon roadmap)"
+    },
+    {
+      "label": "P1: Must-Have (Day 1)",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "gemini_p1_must_have_day_1",
+      "community": 20,
+      "norm_label": "p1: must-have (day 1)"
+    },
+    {
+      "label": "P2: Wow Factor (Day 2)",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "gemini_p2_wow_factor_day_2",
+      "community": 20,
+      "norm_label": "p2: wow factor (day 2)"
+    },
+    {
+      "label": "P3: If Time Allows",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "gemini_p3_if_time_allows",
+      "community": 20,
+      "norm_label": "p3: if time allows"
+    },
+    {
+      "label": "\ud83d\udc65 Team Responsibilities",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "gemini_team_responsibilities",
+      "community": 20,
+      "norm_label": "\ud83d\udc65 team responsibilities"
+    },
+    {
+      "label": "\ud83d\udcdc Development Conventions",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "gemini_development_conventions",
+      "community": 20,
+      "norm_label": "\ud83d\udcdc development conventions"
+    },
+    {
+      "label": "frontend-plan.md",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan",
+      "community": 19,
+      "norm_label": "frontend-plan.md"
+    },
+    {
+      "label": "Frontend Implementation Plan: Second Life Commerce",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_frontend_implementation_plan_second_life_commerce",
+      "community": 19,
+      "norm_label": "frontend implementation plan: second life commerce"
+    },
+    {
+      "label": "\ud83c\udfa8 Design System & Aesthetic Constraints (The \"Anti-Slop\" Mandate)",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_design_system_aesthetic_constraints_the_anti_slop_mandate",
+      "community": 19,
+      "norm_label": "\ud83c\udfa8 design system & aesthetic constraints (the \"anti-slop\" mandate)"
+    },
+    {
+      "label": "Tailwind Theme Extensions (`tailwind.config.js`)",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_tailwind_theme_extensions_tailwind_config_js",
+      "community": 19,
+      "norm_label": "tailwind theme extensions (`tailwind.config.js`)"
+    },
+    {
+      "label": "\ud83c\udfd7\ufe0f Phase 1: Scaffold & Base Components",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_phase_1_scaffold_base_components",
+      "community": 19,
+      "norm_label": "\ud83c\udfd7\ufe0f phase 1: scaffold & base components"
+    },
+    {
+      "label": "Task 1: Initialize Project & Tailwind",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_task_1_initialize_project_tailwind",
+      "community": 19,
+      "norm_label": "task 1: initialize project & tailwind"
+    },
+    {
+      "label": "Task 2: Base UI Components",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_task_2_base_ui_components",
+      "community": 19,
+      "norm_label": "task 2: base ui components"
+    },
+    {
+      "label": "\ud83d\udcf8 Phase 2: Upload & AI Grading Flow",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_phase_2_upload_ai_grading_flow",
+      "community": 19,
+      "norm_label": "\ud83d\udcf8 phase 2: upload & ai grading flow"
+    },
+    {
+      "label": "Task 3: Image Dropzone & API Integration",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_task_3_image_dropzone_api_integration",
+      "community": 19,
+      "norm_label": "task 3: image dropzone & api integration"
+    },
+    {
+      "label": "Task 4: Damage Annotation Canvas & Results Card",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_task_4_damage_annotation_canvas_results_card",
+      "community": 19,
+      "norm_label": "task 4: damage annotation canvas & results card"
+    },
+    {
+      "label": "\ud83d\udccb Phase 3: Routing & Sustainability",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_phase_3_routing_sustainability",
+      "community": 19,
+      "norm_label": "\ud83d\udccb phase 3: routing & sustainability"
+    },
+    {
+      "label": "Task 5: Dynamic Questionnaire",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_task_5_dynamic_questionnaire",
+      "community": 19,
+      "norm_label": "task 5: dynamic questionnaire"
+    },
+    {
+      "label": "Task 6: Routing Decision & CO2 Impact",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_task_6_routing_decision_co2_impact",
+      "community": 19,
+      "norm_label": "task 6: routing decision & co2 impact"
+    },
+    {
+      "label": "\ud83e\udd14 Phase 4: Wow-Factor Features",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_phase_4_wow_factor_features",
+      "community": 19,
+      "norm_label": "\ud83e\udd14 phase 4: wow-factor features"
+    },
+    {
+      "label": "Task 7: Return Regret Predictor",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_task_7_return_regret_predictor",
+      "community": 19,
+      "norm_label": "task 7: return regret predictor"
+    },
+    {
+      "label": "Task 8: Assemble App Routing",
+      "file_type": "document",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "conductor_frontend_plan_task_8_assemble_app_routing",
+      "community": 19,
+      "norm_label": "task 8: assemble app routing"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "frontend/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_readme",
+      "community": 21,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "React + TypeScript + Vite",
+      "file_type": "document",
+      "source_file": "frontend/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_readme_react_typescript_vite",
+      "community": 21,
+      "norm_label": "react + typescript + vite"
+    },
+    {
+      "label": "React Compiler",
+      "file_type": "document",
+      "source_file": "frontend/README.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "frontend_readme_react_compiler",
+      "community": 21,
+      "norm_label": "react compiler"
+    },
+    {
+      "label": "Expanding the ESLint configuration",
+      "file_type": "document",
+      "source_file": "frontend/README.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "frontend_readme_expanding_the_eslint_configuration",
+      "community": 21,
+      "norm_label": "expanding the eslint configuration"
+    },
+    {
+      "label": "prd.md",
+      "file_type": "document",
+      "source_file": "prd.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "prd",
+      "community": 22,
+      "norm_label": "prd.md"
+    },
+    {
+      "label": "Second Life Commerce",
+      "type": "project",
+      "summary": "AI-powered returns and sustainable resale platform designed for the circular economy.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "second life commerce",
+      "id": "second_life_commerce"
+    },
+    {
+      "label": "FastAPI Backend",
+      "type": "component",
+      "summary": "The core application backend built with Python 3.11 and FastAPI.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "fastapi backend",
+      "id": "fastapi_backend"
+    },
+    {
+      "label": "React Frontend",
+      "type": "component",
+      "summary": "The user interface built with React.js, Vite, and Tailwind CSS.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "react frontend",
+      "id": "react_frontend"
+    },
+    {
+      "label": "Google Gemini Flash API",
+      "type": "tech",
+      "summary": "Multi-modal AI used for product condition grading, image assessment, and regret prediction.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "google gemini flash api",
+      "id": "google_gemini_flash"
+    },
+    {
+      "label": "Amazon Kiro",
+      "type": "tech",
+      "summary": "AI code assistance tool used for autocomplete during development.",
+      "file_type": "concept",
+      "community": 13,
+      "norm_label": "amazon kiro",
+      "id": "amazon_kiro"
+    },
+    {
+      "label": "JSON Database",
+      "type": "component",
+      "summary": "Lightweight persistence system using products.json, sellers.json, and listings.json.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "json database",
+      "id": "json_database"
+    },
+    {
+      "label": "AI Agent Logic",
+      "type": "component",
+      "summary": "Backend module containing Gemini API wrappers and multi-modal AI logic.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "ai agent logic",
+      "id": "ai_agent_logic"
+    },
+    {
+      "label": "Routing Engine",
+      "type": "feature",
+      "summary": "Decision matrix that determines if a product should be resold, refurbished, donated, or recycled.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "routing engine",
+      "id": "routing_engine"
+    },
+    {
+      "label": "Green Points System",
+      "type": "feature",
+      "summary": "Reward system that gives points to users for participating in sustainable actions.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "green points system",
+      "id": "green_points_system"
+    },
+    {
+      "label": "Return Regret Predictor",
+      "type": "feature",
+      "summary": "AI analysis tool that predicts buyer regret to reduce unnecessary returns.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "return regret predictor",
+      "id": "regret_predictor"
+    },
+    {
+      "label": "CO2 Impact Display",
+      "type": "feature",
+      "summary": "Metrics showing the environmental savings (CO2) from resale actions.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "co2 impact display",
+      "id": "co2_impact_display"
+    },
+    {
+      "label": "Damage Annotation Overlay",
+      "type": "feature",
+      "summary": "HTML Canvas interface for highlighting detected damage regions on product photos.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "damage annotation overlay",
+      "id": "damage_annotation_overlay"
+    },
+    {
+      "label": "Member A (Lead)",
+      "type": "person",
+      "summary": "Responsible for AI integration, architecture, and routing logic.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "member a (lead)",
+      "id": "member_a_lead"
+    },
+    {
+      "label": "Member B (Backend)",
+      "type": "person",
+      "summary": "Responsible for FastAPI endpoints, mock DB, and Green Points logic.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "member b (backend)",
+      "id": "member_b_backend"
+    },
+    {
+      "label": "Member C (Frontend)",
+      "type": "person",
+      "summary": "Responsible for React UI, dashboard, and canvas annotations.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "member c (frontend)",
+      "id": "member_c_frontend"
+    },
+    {
+      "label": "Sample Product Images",
+      "type": "data",
+      "summary": "Set of images used to test the AI's product grading and quality assessment capabilities.",
+      "file_type": "concept",
+      "community": 4,
+      "norm_label": "sample product images",
+      "id": "sample_images"
+    },
+    {
+      "label": "Clean BIREL Rubber Boot (Red Sole)",
+      "file_type": "image",
+      "source_file": "secondlife-backend/your_new_image(1).jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 10,
+      "norm_label": "clean birel rubber boot (red sole)",
+      "id": "secondlife_backend_your_new_image_1_boot"
+    },
+    {
+      "label": "Dirty BIREL Rubber Boot (Red Sole)",
+      "file_type": "image",
+      "source_file": "secondlife-backend/your_new_image.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 10,
+      "norm_label": "dirty birel rubber boot (red sole)",
+      "id": "secondlife_backend_your_new_image_boot"
+    },
+    {
+      "label": "BIREL Brand",
+      "file_type": "concept",
+      "source_file": "secondlife-backend/your_new_image.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 10,
+      "norm_label": "birel brand",
+      "id": "concept_birel_brand"
+    },
+    {
+      "label": "Rubber Safety Boot",
+      "file_type": "concept",
+      "source_file": "secondlife-backend/your_new_image.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 10,
+      "norm_label": "rubber safety boot",
+      "id": "concept_rubber_boot"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent",
+      "target": "backend_ai_agent_ask_gemini_with_image"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent",
+      "target": "backend_ai_agent_check_image_quality"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent",
+      "target": "backend_ai_agent_full_image_analysis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent",
+      "target": "backend_ai_agent_grade_product_image"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent",
+      "target": "backend_ai_agent_safe_parse_json"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent_check_image_quality",
+      "target": "backend_ai_agent_ask_gemini_with_image"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent_grade_product_image",
+      "target": "backend_ai_agent_ask_gemini_with_image"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent_check_image_quality",
+      "target": "backend_ai_agent_safe_parse_json"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent_grade_product_image",
+      "target": "backend_ai_agent_safe_parse_json"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent_full_image_analysis",
+      "target": "backend_ai_agent_check_image_quality"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ai_agent.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_ai_agent_full_image_analysis",
+      "target": "backend_ai_agent_grade_product_image"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/database.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_database",
+      "target": "backend_database_initialize_db"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/database.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_database",
+      "target": "backend_database_read_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/database.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_database",
+      "target": "backend_database_write_json"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/database.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_database_rationale_11",
+      "target": "backend_database_initialize_db"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/database.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_database_rationale_29",
+      "target": "backend_database_read_json"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/database.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_database_rationale_37",
+      "target": "backend_database_write_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L207",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_api_predict_return_regret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_ask_gemini"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L233",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_calculate_co2_impact"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L260",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_get_admin_review_queue"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L252",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_get_marketplace_listings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_get_questions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_grade_product"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L271",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_redeem_green_points"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_route_product"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main",
+      "target": "backend_main_upload_photo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L212",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_api_predict_return_regret",
+      "target": "backend_main_ask_gemini"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_get_questions",
+      "target": "backend_main_ask_gemini"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_route_product",
+      "target": "backend_main_ask_gemini"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_upload_photo",
+      "target": "uploadfile"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_grade_product",
+      "target": "uploadfile"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_rationale_51",
+      "target": "backend_main_grade_product"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_get_questions",
+      "target": "graderesponse"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_rationale_106",
+      "target": "backend_main_get_questions"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_rationale_135",
+      "target": "backend_main_route_product"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_route_product",
+      "target": "useranswers"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L207",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_api_predict_return_regret",
+      "target": "regretrequest"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_rationale_208",
+      "target": "backend_main_api_predict_return_regret"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L234",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_rationale_234",
+      "target": "backend_main_calculate_co2_impact"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L271",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_main_redeem_green_points",
+      "target": "redeemrequest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_adminqueueresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_co2impactresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_damagelocation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_graderesponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_imagequality"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_listingsresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_marketplacelisting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_question"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_questionnaireoption"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_questionnaireresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_redeemrequest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_redeemresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_regretrequest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_regretresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_reviewitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_routingdecisionresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas",
+      "target": "backend_schemas_useranswers"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_imagequality",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_adminqueueresponse",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_co2impactresponse",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_damagelocation",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_graderesponse",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_listingsresponse",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_marketplacelisting",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_question",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_questionnaireoption",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_questionnaireresponse",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_redeemrequest",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_redeemresponse",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_regretrequest",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_regretresponse",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_reviewitem",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_routingdecisionresponse",
+      "target": "basemodel"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/schemas.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_schemas_useranswers",
+      "target": "basemodel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/sellers.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_sellers",
+      "target": "backend_sellers_user_rahul"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/sellers.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_sellers",
+      "target": "backend_sellers_user_sakshi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/sellers.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_sellers_user_rahul",
+      "target": "backend_sellers_user_rahul_green_points"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/sellers.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_sellers_user_rahul",
+      "target": "backend_sellers_user_rahul_listings_count"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/sellers.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_sellers_user_sakshi",
+      "target": "backend_sellers_user_sakshi_green_points"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/sellers.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_sellers_user_sakshi",
+      "target": "backend_sellers_user_sakshi_listings_count"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_preview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_axios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_lucide_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_tailwindcss_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_autoprefixer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_globals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_postcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_typescript"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_typescript_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitejs_plugin_react"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "layout_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "views_assessmentview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "views_regretpredictorview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "grading_graderesult",
+      "target": "grading_graderesult_graderesult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "grading_graderesult",
+      "target": "grading_graderesult_graderesultprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "grading_graderesult",
+      "target": "services_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "grading_graderesult",
+      "target": "services_api_graderesponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "grading_graderesult",
+      "target": "ui_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "grading_graderesult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/GradeResult.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "grading_graderesult_graderesultprops",
+      "target": "services_api_graderesponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/ImageAnnotator.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "grading_imageannotator",
+      "target": "grading_imageannotator_imageannotator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/ImageAnnotator.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "grading_imageannotator",
+      "target": "grading_imageannotator_imageannotatorprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/ImageAnnotator.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "grading_imageannotator",
+      "target": "services_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/ImageAnnotator.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "grading_imageannotator",
+      "target": "services_api_damagelocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "grading_imageannotator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/ImageAnnotator.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "grading_imageannotator_imageannotatorprops",
+      "target": "services_api_damagelocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "grading_questionnaire",
+      "target": "grading_questionnaire_questionnaire",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "grading_questionnaire",
+      "target": "grading_questionnaire_questionnaireprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "grading_questionnaire",
+      "target": "services_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "grading_questionnaire",
+      "target": "services_api_questionnaireresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "grading_questionnaire",
+      "target": "ui_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "grading_questionnaire",
+      "target": "ui_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "grading_questionnaire",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/grading/Questionnaire.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "grading_questionnaire_questionnaireprops",
+      "target": "services_api_questionnaireresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/layout/Header.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "layout_header",
+      "target": "layout_header_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "outcome_co2impact",
+      "target": "outcome_co2impact_co2impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "outcome_co2impact",
+      "target": "outcome_co2impact_co2impactprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "outcome_co2impact",
+      "target": "services_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "outcome_co2impact",
+      "target": "services_api_co2impactresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "outcome_co2impact",
+      "target": "services_api_getco2impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "outcome_co2impact",
+      "target": "ui_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "outcome_co2impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/CO2Impact.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "outcome_co2impact_co2impact",
+      "target": "services_api_getco2impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "outcome_decisioncard",
+      "target": "outcome_decisioncard_decisioncard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "outcome_decisioncard",
+      "target": "outcome_decisioncard_decisioncardprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "outcome_decisioncard",
+      "target": "services_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "outcome_decisioncard",
+      "target": "services_api_routingdecisionresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "outcome_decisioncard",
+      "target": "ui_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "outcome_decisioncard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/outcome/DecisionCard.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "outcome_decisioncard_decisioncardprops",
+      "target": "services_api_routingdecisionresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ui/Button.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "ui_button",
+      "target": "ui_button_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ui/Button.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "ui_button",
+      "target": "ui_button_buttonprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/upload/Dropzone.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "upload_dropzone",
+      "target": "ui_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "ui_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/RegretPredictorView.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "views_regretpredictorview",
+      "target": "ui_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ui/Card.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "ui_card",
+      "target": "ui_card_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ui/Card.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "ui_card",
+      "target": "ui_card_cardprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/RegretPredictorView.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "views_regretpredictorview",
+      "target": "ui_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/upload/Dropzone.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "upload_dropzone",
+      "target": "upload_dropzone_dropzone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/upload/Dropzone.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "upload_dropzone",
+      "target": "upload_dropzone_dropzoneprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "upload_dropzone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_co2impactresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_damagelocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_getco2impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_getquestionnaire",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_gradeproduct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_graderesponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_imagequality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_predictregret",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_question",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_questionnaireoption",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_questionnaireresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_regretresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_routeproduct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "services_api",
+      "target": "services_api_routingdecisionresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "services_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/RegretPredictorView.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "views_regretpredictorview",
+      "target": "services_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "services_api_graderesponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "services_api_questionnaireresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "services_api_routingdecisionresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/RegretPredictorView.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "views_regretpredictorview",
+      "target": "services_api_regretresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "services_api_gradeproduct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "services_api_getquestionnaire",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "services_api_routeproduct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/RegretPredictorView.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "views_regretpredictorview",
+      "target": "services_api_predictregret",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/AssessmentView.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "views_assessmentview",
+      "target": "views_assessmentview_assessmentview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/views/RegretPredictorView.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "views_regretpredictorview",
+      "target": "views_regretpredictorview_regretpredictorview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app",
+      "target": "frontend_tsconfig_app_compileroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app",
+      "target": "frontend_tsconfig_app_include"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_allowimportingtsextensions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_erasablesyntaxonly"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_jsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_lib"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_module"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_moduledetection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_moduleresolution"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_noemit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_nofallthroughcasesinswitch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_nounusedlocals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_nounusedparameters"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_skiplibcheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_target"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_tsbuildinfofile"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_types"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.app.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_app_compileroptions",
+      "target": "frontend_tsconfig_app_compileroptions_verbatimmodulesyntax"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig",
+      "target": "frontend_tsconfig_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig",
+      "target": "frontend_tsconfig_references"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node",
+      "target": "frontend_tsconfig_node_compileroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node",
+      "target": "frontend_tsconfig_node_include"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_allowimportingtsextensions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_erasablesyntaxonly"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_lib"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_module"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_moduledetection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_moduleresolution"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_noemit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_nofallthroughcasesinswitch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_nounusedlocals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_nounusedparameters"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_skiplibcheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_target"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_tsbuildinfofile"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_types"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_verbatimmodulesyntax"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "gemini",
+      "target": "gemini_second_life_commerce_ai_circular_economy_engine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "gemini_second_life_commerce_ai_circular_economy_engine",
+      "target": "gemini_development_conventions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "gemini_second_life_commerce_ai_circular_economy_engine",
+      "target": "gemini_feature_priority_hackathon_roadmap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "gemini_second_life_commerce_ai_circular_economy_engine",
+      "target": "gemini_project_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "gemini_second_life_commerce_ai_circular_economy_engine",
+      "target": "gemini_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "gemini_second_life_commerce_ai_circular_economy_engine",
+      "target": "gemini_team_responsibilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "gemini_second_life_commerce_ai_circular_economy_engine",
+      "target": "gemini_technology_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "gemini_feature_priority_hackathon_roadmap",
+      "target": "gemini_p1_must_have_day_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "gemini_feature_priority_hackathon_roadmap",
+      "target": "gemini_p2_wow_factor_day_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "gemini_feature_priority_hackathon_roadmap",
+      "target": "gemini_p3_if_time_allows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan",
+      "target": "conductor_frontend_plan_frontend_implementation_plan_second_life_commerce",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_frontend_implementation_plan_second_life_commerce",
+      "target": "conductor_frontend_plan_design_system_aesthetic_constraints_the_anti_slop_mandate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_frontend_implementation_plan_second_life_commerce",
+      "target": "conductor_frontend_plan_phase_1_scaffold_base_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_frontend_implementation_plan_second_life_commerce",
+      "target": "conductor_frontend_plan_phase_2_upload_ai_grading_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_frontend_implementation_plan_second_life_commerce",
+      "target": "conductor_frontend_plan_phase_3_routing_sustainability",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_frontend_implementation_plan_second_life_commerce",
+      "target": "conductor_frontend_plan_phase_4_wow_factor_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_design_system_aesthetic_constraints_the_anti_slop_mandate",
+      "target": "conductor_frontend_plan_tailwind_theme_extensions_tailwind_config_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_phase_1_scaffold_base_components",
+      "target": "conductor_frontend_plan_task_1_initialize_project_tailwind",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_phase_1_scaffold_base_components",
+      "target": "conductor_frontend_plan_task_2_base_ui_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_phase_2_upload_ai_grading_flow",
+      "target": "conductor_frontend_plan_task_3_image_dropzone_api_integration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_phase_2_upload_ai_grading_flow",
+      "target": "conductor_frontend_plan_task_4_damage_annotation_canvas_results_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_phase_3_routing_sustainability",
+      "target": "conductor_frontend_plan_task_5_dynamic_questionnaire",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_phase_3_routing_sustainability",
+      "target": "conductor_frontend_plan_task_6_routing_decision_co2_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_phase_4_wow_factor_features",
+      "target": "conductor_frontend_plan_task_7_return_regret_predictor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "conductor/frontend-plan.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "conductor_frontend_plan_phase_4_wow_factor_features",
+      "target": "conductor_frontend_plan_task_8_assemble_app_routing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_readme",
+      "target": "frontend_readme_react_typescript_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_readme_react_typescript_vite",
+      "target": "frontend_readme_expanding_the_eslint_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_readme_react_typescript_vite",
+      "target": "frontend_readme_react_compiler",
+      "confidence_score": 1.0
+    },
+    {
+      "label": "part_of",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "co2_impact_display",
+      "target": "second_life_commerce"
+    },
+    {
+      "label": "part_of",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "green_points_system",
+      "target": "second_life_commerce"
+    },
+    {
+      "label": "uses_backend",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "second_life_commerce",
+      "target": "fastapi_backend"
+    },
+    {
+      "label": "uses_frontend",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "second_life_commerce",
+      "target": "react_frontend"
+    },
+    {
+      "label": "contains",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "fastapi_backend",
+      "target": "ai_agent_logic"
+    },
+    {
+      "label": "integrates_with",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "fastapi_backend",
+      "target": "google_gemini_flash"
+    },
+    {
+      "label": "manages",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "fastapi_backend",
+      "target": "json_database"
+    },
+    {
+      "label": "develops",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "member_b_backend",
+      "target": "fastapi_backend"
+    },
+    {
+      "label": "consumes_api",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "react_frontend",
+      "target": "fastapi_backend"
+    },
+    {
+      "label": "implemented_in",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "damage_annotation_overlay",
+      "target": "react_frontend"
+    },
+    {
+      "label": "develops",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "member_c_frontend",
+      "target": "react_frontend"
+    },
+    {
+      "label": "wraps",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_agent_logic",
+      "target": "google_gemini_flash"
+    },
+    {
+      "label": "processes",
+      "confidence": 0.95,
+      "confidence_score": 1.0,
+      "source": "google_gemini_flash",
+      "target": "sample_images"
+    },
+    {
+      "label": "calls",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "regret_predictor",
+      "target": "google_gemini_flash"
+    },
+    {
+      "label": "develops",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "member_a_lead",
+      "target": "ai_agent_logic"
+    },
+    {
+      "label": "uses",
+      "confidence": 1.0,
+      "confidence_score": 1.0,
+      "source": "routing_engine",
+      "target": "ai_agent_logic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "secondlife-backend/your_new_image(1).jpg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "secondlife_backend_your_new_image_1_boot",
+      "target": "concept_birel_brand"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "secondlife-backend/your_new_image(1).jpg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "secondlife_backend_your_new_image_1_boot",
+      "target": "concept_rubber_boot"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "secondlife-backend/your_new_image(1).jpg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "secondlife_backend_your_new_image_1_boot",
+      "target": "secondlife_backend_your_new_image_boot"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "secondlife-backend/your_new_image.jpg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "secondlife_backend_your_new_image_boot",
+      "target": "concept_birel_brand"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "secondlife-backend/your_new_image.jpg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "secondlife_backend_your_new_image_boot",
+      "target": "concept_rubber_boot"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "854483e36cedc184f7add85926b4713cf65209dd"
+}

@@ -1,0 +1,262 @@
+{
+  "backend/ai_agent.py": {
+    "mtime": 1781448609.8771863,
+    "ast_hash": "a92b99293bac39a9170abe24dd896e4e",
+    "semantic_hash": ""
+  },
+  "backend/database.py": {
+    "mtime": 1781445710.0248356,
+    "ast_hash": "db817590a4a052c994982fe1eb5823af",
+    "semantic_hash": "db817590a4a052c994982fe1eb5823af"
+  },
+  "backend/listings.json": {
+    "mtime": 1781445710.0248356,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": "d751713988987e9331980363e24189ce"
+  },
+  "backend/main.py": {
+    "mtime": 1781448717.4492757,
+    "ast_hash": "c7cfe1d7093c4b667c3cb635ab5ed3ac",
+    "semantic_hash": ""
+  },
+  "backend/products.json": {
+    "mtime": 1781445710.0268705,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": "d751713988987e9331980363e24189ce"
+  },
+  "backend/schemas.py": {
+    "mtime": 1781448597.9102495,
+    "ast_hash": "9eb7c59d56df5842218e48975cabf3fd",
+    "semantic_hash": ""
+  },
+  "backend/sellers.json": {
+    "mtime": 1781445710.0278764,
+    "ast_hash": "55a0fea78e635099f1d84b30a965f58f",
+    "semantic_hash": "55a0fea78e635099f1d84b30a965f58f"
+  },
+  "frontend/eslint.config.js": {
+    "mtime": 1781446382.7943847,
+    "ast_hash": "0355276bc79439afe3c53e3a2470ca1e",
+    "semantic_hash": "0355276bc79439afe3c53e3a2470ca1e"
+  },
+  "frontend/package.json": {
+    "mtime": 1781447813.6936612,
+    "ast_hash": "0bc28e98b1a14c28436ca7fb5bb11b2d",
+    "semantic_hash": ""
+  },
+  "frontend/src/App.tsx": {
+    "mtime": 1781447660.9875593,
+    "ast_hash": "c0c4999781607b976153445773d662d0",
+    "semantic_hash": ""
+  },
+  "frontend/src/main.tsx": {
+    "mtime": 1781446383.0700545,
+    "ast_hash": "787e5a07efeb2bf6209d5937195f2f68",
+    "semantic_hash": "787e5a07efeb2bf6209d5937195f2f68"
+  },
+  "frontend/tsconfig.app.json": {
+    "mtime": 1781446382.8689806,
+    "ast_hash": "136630b5accce1ca50663df229534a26",
+    "semantic_hash": "136630b5accce1ca50663df229534a26"
+  },
+  "frontend/tsconfig.json": {
+    "mtime": 1781446382.8778584,
+    "ast_hash": "a3d39fa780ebff65444de257f291ce6c",
+    "semantic_hash": "a3d39fa780ebff65444de257f291ce6c"
+  },
+  "frontend/tsconfig.node.json": {
+    "mtime": 1781446382.883421,
+    "ast_hash": "70bdd0a673bcfc0e828080b306e7c680",
+    "semantic_hash": "70bdd0a673bcfc0e828080b306e7c680"
+  },
+  "frontend/vite.config.ts": {
+    "mtime": 1781447829.8206222,
+    "ast_hash": "d281d66c4390899f561fa3db9b8e9eac",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1781447696.928934,
+    "ast_hash": "b9b5cfd38bac19e2f6de07ad06f1548b",
+    "semantic_hash": ""
+  },
+  "backend/requirements.txt": {
+    "mtime": 1781446214.0982842,
+    "ast_hash": "a2f6f1a3e5884d71943c36b65f73b6e3",
+    "semantic_hash": "a2f6f1a3e5884d71943c36b65f73b6e3"
+  },
+  "frontend/README.md": {
+    "mtime": 1781446382.903556,
+    "ast_hash": "f6e3faf55d738cf2affe1b44195f27cf",
+    "semantic_hash": "f6e3faf55d738cf2affe1b44195f27cf"
+  },
+  "frontend/index.html": {
+    "mtime": 1781447682.184521,
+    "ast_hash": "6178e7634f66b40ac8ad3e0243c9c14b",
+    "semantic_hash": ""
+  },
+  "prd.md": {
+    "mtime": 1781446192.6706882,
+    "ast_hash": "39efbfbc38337297fb06404232813f24",
+    "semantic_hash": "39efbfbc38337297fb06404232813f24"
+  },
+  "frontend/public/favicon.svg": {
+    "mtime": 1781446382.9816377,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": "7e840862161341271697daa99a40d76b"
+  },
+  "frontend/public/icons.svg": {
+    "mtime": 1781446383.006771,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": "3b4fcfcf393eca4d264dca4a4663bc37"
+  },
+  "frontend/src/assets/hero.png": {
+    "mtime": 1781446382.9282098,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": "aead493361b27e7510691c5d7072dfc1"
+  },
+  "frontend/src/assets/react.svg": {
+    "mtime": 1781446383.0304873,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": "f0402b67b6ce880f65666bb49e841696"
+  },
+  "frontend/src/assets/vite.svg": {
+    "mtime": 1781446383.0455387,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": "9960a24288958394ac50e57ff638b036"
+  },
+  "secondlife-backend/your_image_1.jpg": {
+    "mtime": 1781445710.0354295,
+    "ast_hash": "e7b507c7b6b96cdd378e9986cfe5c89c",
+    "semantic_hash": "e7b507c7b6b96cdd378e9986cfe5c89c"
+  },
+  "secondlife-backend/your_image_10.jpg": {
+    "mtime": 1781445710.0409908,
+    "ast_hash": "e0a91ada10055d6f76baaa69f5a140cd",
+    "semantic_hash": "e0a91ada10055d6f76baaa69f5a140cd"
+  },
+  "secondlife-backend/your_image_2.jpg": {
+    "mtime": 1781445710.0444329,
+    "ast_hash": "0411ebe7ba8d0ed321bd6da92f13f0cb",
+    "semantic_hash": "0411ebe7ba8d0ed321bd6da92f13f0cb"
+  },
+  "secondlife-backend/your_image_3.jpg": {
+    "mtime": 1781445710.048599,
+    "ast_hash": "ac1dd383682a48435498beb4252b250a",
+    "semantic_hash": "ac1dd383682a48435498beb4252b250a"
+  },
+  "secondlife-backend/your_image_4.jpg": {
+    "mtime": 1781445710.052115,
+    "ast_hash": "694949752f7cdc84bb6e36b55d75584e",
+    "semantic_hash": "694949752f7cdc84bb6e36b55d75584e"
+  },
+  "secondlife-backend/your_image_5.jpg": {
+    "mtime": 1781445710.0556414,
+    "ast_hash": "a786ac5494a21e66d81027795c295217",
+    "semantic_hash": "a786ac5494a21e66d81027795c295217"
+  },
+  "secondlife-backend/your_image_6.jpg": {
+    "mtime": 1781445710.0581608,
+    "ast_hash": "7ca7462468bcf66c7a5f5e7b1ad52418",
+    "semantic_hash": "7ca7462468bcf66c7a5f5e7b1ad52418"
+  },
+  "secondlife-backend/your_image_7.jpg": {
+    "mtime": 1781445710.0616798,
+    "ast_hash": "4a599fd9d567b8ee7da63e97e8065737",
+    "semantic_hash": "4a599fd9d567b8ee7da63e97e8065737"
+  },
+  "secondlife-backend/your_image_8.jpg": {
+    "mtime": 1781445710.0641828,
+    "ast_hash": "5332642168f53703e5815372cc7f6291",
+    "semantic_hash": "5332642168f53703e5815372cc7f6291"
+  },
+  "secondlife-backend/your_image_9.jpg": {
+    "mtime": 1781445710.066702,
+    "ast_hash": "2c81c49d1c03fa6a5b2723635957c250",
+    "semantic_hash": "2c81c49d1c03fa6a5b2723635957c250"
+  },
+  "secondlife-backend/your_new_image(1).jpg": {
+    "mtime": 1781445710.0702286,
+    "ast_hash": "ac1dd383682a48435498beb4252b250a",
+    "semantic_hash": "ac1dd383682a48435498beb4252b250a"
+  },
+  "secondlife-backend/your_new_image.jpg": {
+    "mtime": 1781445710.0702286,
+    "ast_hash": "e8f451beaf3c0cfb54df4730f5af5290",
+    "semantic_hash": "e8f451beaf3c0cfb54df4730f5af5290"
+  },
+  "frontend/src/components/grading/GradeResult.tsx": {
+    "mtime": 1781448122.3888888,
+    "ast_hash": "1fbca641fbc391367e9893c63c0d06c8",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/grading/ImageAnnotator.tsx": {
+    "mtime": 1781448122.3950212,
+    "ast_hash": "c3ef5b622556febc9cf4a75c88c80766",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/grading/Questionnaire.tsx": {
+    "mtime": 1781448122.3888888,
+    "ast_hash": "c999c694c5278e67e5cb69fd36d75eaa",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/layout/Header.tsx": {
+    "mtime": 1781447543.8907425,
+    "ast_hash": "d5a3d8841a347d4527a281ee92a1ea50",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/outcome/CO2Impact.tsx": {
+    "mtime": 1781448122.3888888,
+    "ast_hash": "97f32d901f362cb1af1e239179f2c432",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/outcome/DecisionCard.tsx": {
+    "mtime": 1781448122.3888888,
+    "ast_hash": "5b26513511c2e89d6f8fb10dcf8dcdfd",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/ui/Button.tsx": {
+    "mtime": 1781447527.9645612,
+    "ast_hash": "a06222cee9cdc92fdc4bebe1de12fb16",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/ui/Card.tsx": {
+    "mtime": 1781447533.2637343,
+    "ast_hash": "dad681f1733aba9a931897ca242b492c",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/upload/Dropzone.tsx": {
+    "mtime": 1781447565.1242952,
+    "ast_hash": "af08839f746179f8edbe1861cb81f92a",
+    "semantic_hash": ""
+  },
+  "frontend/src/services/api.ts": {
+    "mtime": 1781447554.360104,
+    "ast_hash": "07eec84ed305eda7b8231f7727148746",
+    "semantic_hash": ""
+  },
+  "frontend/src/views/AssessmentView.tsx": {
+    "mtime": 1781447972.4820683,
+    "ast_hash": "7b23a6b83a0e6aff0a2f73ed6f77d7e8",
+    "semantic_hash": ""
+  },
+  "frontend/src/views/RegretPredictorView.tsx": {
+    "mtime": 1781448001.3110383,
+    "ast_hash": "f1430e223aae8f59116c4c377e758c4f",
+    "semantic_hash": ""
+  },
+  "conductor/frontend-plan.md": {
+    "mtime": 1781447385.7333639,
+    "ast_hash": "b0453ac4777365fbf645c2179f1bb962",
+    "semantic_hash": ""
+  },
+  "ErrorSS/Screenshot 2026-06-14 202903.png": {
+    "mtime": 1781448288.2727573,
+    "ast_hash": "6dc461eb8d455aa3090b924bae88d118",
+    "semantic_hash": ""
+  },
+  "backend/uploaded_photos/your_new_image(1).jpg": {
+    "mtime": 1781448182.72355,
+    "ast_hash": "ac1dd383682a48435498beb4252b250a",
+    "semantic_hash": ""
+  }
+}
