@@ -46,5 +46,13 @@ Second Life Commerce is an AI-driven platform designed to facilitate the circula
 2. Install dependencies: `npm install`.
 3. Start the development server: `npm run dev`.
 
+## 🌐 Production Deployment Notes
+
+This project is optimized for deployment on **Vercel**:
+
+- **Backend (FastAPI)**: Configured with explicit Pydantic schema generation fixes (`Dict[str, Any]`, `ConfigDict`) to ensure compatibility with serverless environments.
+- **Frontend (React)**: Optimized build pipeline with resolved TypeScript dependency and unused variable checks for clean production builds.
+- **API Configuration**: The frontend is configured to automatically point to the hosted production API endpoint.
+
 ## 📜 License
 This project is developed for hackathon purposes. All rights reserved.
