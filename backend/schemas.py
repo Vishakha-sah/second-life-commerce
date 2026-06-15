@@ -1,5 +1,5 @@
-from pydantic import BaseModel, Field
-from typing import List, Optional
+from pydantic import BaseModel, Field, ConfigDict
+from typing import List, Optional, Any, Dict
 
 # --- Day 1: Vision & Quality Filter Contracts ---
 class ImageQuality(BaseModel):
@@ -34,15 +34,17 @@ class QuestionnaireResponse(BaseModel):
     questions: List[Question]
 
 class UserAnswers(BaseModel):
-    answers: dict
+    model_config = ConfigDict(arbitrary_types_allowed=True)
+    answers: Dict[str, Any]
 
 class RoutingDecisionResponse(BaseModel):
+    model_config = ConfigDict(arbitrary_types_allowed=True)
     decision: str         # "resell", "refurbish", "donate", "recycle"
     reason: str
     second_life_score: float
     green_points_earned: int
     flagged_for_review: bool # High accountability system threshold
-    alternative_route: Optional[dict] = None
+    alternative_route: Optional[Dict[str, Any]] = None
 
 # --- Day 2: Advanced Features Contracts ---
 class RegretRequest(BaseModel):
