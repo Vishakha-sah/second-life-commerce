@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Support local development with an env variable, otherwise default to relative path for unified Vercel deployment
-const API_BASE_URL = import.meta.env.VITE_API_URL || '';
+// Support local development with an env variable, otherwise default to the new experimental Vercel backend route prefix
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/_/backend';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
