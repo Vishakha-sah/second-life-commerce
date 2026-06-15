@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field, ConfigDict
-from typing import List, Optional, Any, Dict
+from typing import List, Optional, Dict
 
 # --- Day 1: Vision & Quality Filter Contracts ---
 class ImageQuality(BaseModel):
@@ -38,7 +38,7 @@ class UserAnswers(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True)
     session_id: str      # 🔥 INJECTED: Frontend updates previous session ID tag here
     username: Optional[str] = "guest_user" # 🔥 Dynamic identification over-ride
-    answers: Dict[str, Any]
+    answers: Dict[str, object]
 
 class RoutingDecisionResponse(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True)
@@ -47,7 +47,7 @@ class RoutingDecisionResponse(BaseModel):
     second_life_score: float
     green_points_earned: int
     flagged_for_review: bool # High accountability system threshold
-    alternative_route: Optional[Dict[str, Any]] = None
+    alternative_route: Optional[Dict[str, object]] = None
 
 # --- Day 2: Advanced Features Contracts ---
 class RegretRequest(BaseModel):
