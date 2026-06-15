@@ -1,7 +1,7 @@
 import React from 'react';
 import type { GradeResponse } from '../../services/api';
 import Card from '../ui/Card';
-import { ShieldCheck, ShieldAlert, AlertCircle } from 'lucide-react';
+import { ShieldCheck, AlertCircle } from 'lucide-react';
 
 interface GradeResultProps {
   data: GradeResponse;

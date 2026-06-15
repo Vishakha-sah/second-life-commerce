@@ -1,5 +1,5 @@
 import React from 'react';
-import { Leaf, ShoppingCart, User, Search, MapPin } from 'lucide-react';
+import { Leaf, ShoppingCart, Search, MapPin } from 'lucide-react';
 
 interface HeaderProps {
   points: number;
