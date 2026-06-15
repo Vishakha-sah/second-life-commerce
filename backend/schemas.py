@@ -12,6 +12,7 @@ class DamageLocation(BaseModel):
     label: str
 
 class GradeResponse(BaseModel):
+    session_id: str      # 🔥 INJECTED: Cross-user session tracing schema patch
     quality: ImageQuality
     category: str         # "Electronics", "Footwear", "Apparel", etc.
     grade: str            # "Good", "Fair", "Poor"
@@ -35,6 +36,8 @@ class QuestionnaireResponse(BaseModel):
 
 class UserAnswers(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True)
+    session_id: str      # 🔥 INJECTED: Frontend updates previous session ID tag here
+    username: Optional[str] = "guest_user" # 🔥 Dynamic identification over-ride
     answers: Dict[str, Any]
 
 class RoutingDecisionResponse(BaseModel):
@@ -79,6 +82,7 @@ class ReviewItem(BaseModel):
 
 class AdminQueueResponse(BaseModel):
     flagged_items: List[ReviewItem] 
+
 # --- Day 2: Loyalty Point Redemption Contracts ---
 class RedeemRequest(BaseModel):
     user_id: str
@@ -88,4 +92,4 @@ class RedeemResponse(BaseModel):
     success: bool
     coupon_code: str
     discount_amount_inr: float
-    remaining_points: int    
+    remaining_points: int
