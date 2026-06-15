@@ -10,7 +10,7 @@ load_dotenv()  # Load GEMINI_API_KEY from .env
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # 🔥 FIX 1: Stable, fully open free-tier endpoint for consistent hackathon performance
-MODEL_URL = "[https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent](https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent)"
+MODEL_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
 def ask_gemini_with_image(prompt_text, image_path):
     if not GEMINI_API_KEY:

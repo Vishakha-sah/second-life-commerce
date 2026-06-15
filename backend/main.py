@@ -20,9 +20,13 @@ import ai_agent
 app = FastAPI(title="Second Life Circular Economy Engine")
 
 # Configure local upload directory structure for image storage
-UPLOAD_DIR = "uploaded_photos"
+# On Vercel, the only writable directory is /tmp
+UPLOAD_DIR = "/tmp"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
-app.mount("/static", StaticFiles(directory=UPLOAD_DIR), name="static")
+# Note: app.mount("/static") will no longer serve these files persistently on Vercel.
+# For the hackathon, we prioritize grading logic over image hosting persistence.
+# app.mount("/static", StaticFiles(directory=UPLOAD_DIR), name="static")
+
 
 # Enable Cross-Origin Resource Sharing (CORS) for frontend integration
 app.add_middleware(
